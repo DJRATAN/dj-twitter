@@ -1,0 +1,4 @@
+npx create-next-app@latest dj-twitter
+
+
+npm install -D @tailwindcss/forms

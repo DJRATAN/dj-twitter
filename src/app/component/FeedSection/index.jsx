@@ -1,5 +1,6 @@
 import { SparklesIcon } from '@heroicons/react/24/solid'
 import React from 'react'
+import InputFeedSection from '../InputFeedSection'
 
 function FeedSection() {
     return (
@@ -9,6 +10,9 @@ function FeedSection() {
                 <div className="hoverEffect flex w-9 h-9 ml-auto items-center">
                     <SparklesIcon className='h-7' />
                 </div>
+            </div>
+            <div>
+                <InputFeedSection />
             </div>
         </div>
     )
