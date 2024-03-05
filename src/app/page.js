@@ -1,5 +1,6 @@
 import FeedSection from "./component/FeedSection";
 import Sidebar from "./component/Sidebar";
+import Widget from "./component/Widget";
 
 // import './globals.css'
 export default function Home() {
@@ -10,6 +11,7 @@ export default function Home() {
       {/* Feed */}
       <FeedSection />
       {/* Widgets */}
+      <Widget />
       {/* Modal */}
 
     </main>
