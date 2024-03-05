@@ -1,0 +1,9 @@
+
+.iconSize {
+    height: 40px;
+    width: 40px;
+}
+.sideBar{
+    display: flex;
+    align-items: center;
+}
