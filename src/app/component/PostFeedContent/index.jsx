@@ -6,7 +6,7 @@ function PostFeedContent({ post }) {
     return (
         <div className="flex p-3 cursor-pointer border-b border-gray-200">
             {/* user image */}
-            <Image className="rounded-full h-11 w-11 mr-4" src={post.userImg} height={50} width={50} />
+            <Image className="rounded-full h-11 w-11 mr-4"  alt="not loded"  src={post.userImg} height={50} width={50} />
             {/* right side */}
             <div className="">
                 {/* Header */}
